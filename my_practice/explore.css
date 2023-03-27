@@ -1,0 +1,120 @@
+.explore-head {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 600;
+    color: #ab0257;
+    margin-bottom: 30px;
+}
+
+.explore-bg-container {
+    background-color: white;
+}
+
+.explore-container {
+    padding: 5px;
+}
+
+.explore-card {
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+    height: 250px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.2s ease-in-out;
+
+}
+
+.explore-card:hover {
+    height: auto;
+}
+
+.explore-img-cont {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    top: -50px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.explore-pic {
+    width: 100%;
+    height: 200px;
+    border-radius: 6px;
+}
+
+.explore-content {
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.explore-content-head {
+    color: #e00d90;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.explore-content-des {
+    color: #525151;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.explore-card:hover .explore-content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.2s;
+}
+
+.explore-cont-btn {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 600;
+    height: 36px;
+    width: 140px;
+    background-color: #e00d90;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.explore-cont-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.explore-cont-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.explore-cont-btn:hover span {
+    padding-right: 25px;
+}
+
+.explore-cont-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}

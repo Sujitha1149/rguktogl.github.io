@@ -1,0 +1,214 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    background-color: rgb(87, 84, 84);
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .site-heading h4 {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .site-heading h4 span {
+    color: #ab0257;
+  }
+  
+  .site-heading h2 {
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: capitalize;
+    z-index: 1;
+  }
+  
+  .site-heading h2::before {
+    background: #ab0257 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+  }
+  
+  .site-heading {
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  .governing-rgukt-bg {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('img/university.jpg');
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.governing-rgukt-bg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(206, 205, 205, 0.73);
+}
+
+.governing-rgukt-head {
+    position: relative;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 7px;
+}
+
+@media (min-width:768px) {
+    .governing-rgukt-head {
+        font-size: 33px;
+    }
+}
+
+.governing-rgukt-head-des {
+    position: relative;
+}
+
+.governing-rgukt-nav {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Sans-Serif";
+}
+
+/** governing council content**/
+.governing-line {
+    background-color: #00a01d;
+    width: 150px;
+    margin: 0px;
+}
+
+.governing-head {
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #ab0257;
+    margin-top: 15px;
+}
+
+@media (min-width:768px) {
+    .governing-head {
+        font-size: 27px;
+    }
+}
+
+.governing-sub-head {
+    font-family: "Roboto";
+    font-size: 19px;
+    font-weight: bold;
+    color:#00a01d;
+    margin-top: 15px;
+}
+
+@media (min-width:768px) {
+    .governing-sub-head {
+        font-size: 23px;
+    }
+}
+
+.governing-rgukt-des {
+    color: #4a4849;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+@media (min-width:768px) {
+    .governing-rgukt-des {
+        font-size: 16px;
+    }
+}
+
+.governing-des-unordered {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.governing-des-unorder-lists:before {
+    content: "\22C4";
+    color: #00a01d;
+    font-size: 25px;
+    padding: 0px;
+}
+
+.governing-des-unorder-lists {
+    color: #4a4849;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+@media (min-width:768px) {
+    .governing-des-unorder-lists {
+        font-size: 16px;
+    }
+}
+
+.governing-card {
+    border: 1px solid #97f197;
+    border-radius: 8px;
+    background: white;
+ 
+}
+
+.governing-card-head {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #00a01d;
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+.governing-img-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.governing-img {
+    height: 100px;
+    width: 100px;
+   
+    border-radius: 70px;
+    border: 1px solid #777a78;
+}
+.governing-img:hover{
+  background-color:black ;
+}
+
+.governing-card-des {
+    color: #4a4849;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin: 0px;
+}
+
+

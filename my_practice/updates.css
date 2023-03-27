@@ -1,0 +1,107 @@
+.news-tenders-cont{
+    background-color: #d9d7d4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.news-ticker-events-container{
+    background-color:transparent;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.news-head {
+    color: #fff ;
+    background-color: #ab0257;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+.news-head:hover{
+    text-decoration: none;
+    background-color: #cf4e88;
+    color: white;
+}
+
+.tenders-card{
+    background-color: white;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #bfbaba;
+    overflow: hidden;
+    border-radius: 5px;
+    /*border: 1px solid #ab0257;*/
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+.news-updates-card {
+    background-color: white;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #bfbaba;
+    overflow: hidden;
+    border-radius: 5px;
+    /*border: 1px solid #ab0257;*/
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.new-unorder-list {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.news-item {
+    color: #171717;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.news-item:hover{
+    text-decoration: none;
+    color: #120252;
+}
+/*
+.news-horizontal-line {
+    width: 80%;
+    margin-left: 0px;
+    background-color: white;
+}*/
+
+.news-date-card {
+    width: 150px;
+    height: 100px;
+}
+
+.news-list-date {
+    background-color: #bd2d75;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Roboto";
+    margin-bottom: 0px;
+    padding: 2px;
+}
+
+.news-list-mnth-year {
+    background-color: #d9d7d4;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    color:#434343;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Roboto";
+    padding: 2px;
+}
+.tenders-un-list{
+    list-style-type: none;
+    padding: 10px;
+}
+.tenders-des{
+    color: #434343;
+    font-size: 15px;
+}
